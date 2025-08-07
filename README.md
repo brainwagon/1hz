@@ -39,9 +39,13 @@ use on the NTSC versions, counting the 60 frames per second,
 and automatically find tunes the speed of the ball to maintain
 a 60hz update rate.
 
-I've also decided to make some minor tweaks.  The original
-code told time in 0-23 hour format, which seems less desirable
-to me.  I also wanted to fix the score update (in 
-previous versions it incremented the minute/hour before the 
-miss was displayed.   I hope to get that sorted out in 
-this version.
+What isn't perhaps widely known is that the Atari 2600 can not
+only read data from the joystick ports, but it can configure 
+them as outputs as well.  Some minor tweaks to the code and 
+the Atari 2600 can act as a primitive signal generator.  I configured
+it to output a square wave with 1 Hertz period with the up time 
+of 250ms.  I dug out a female DB9 and wired hooked up my 
+Rigol DS1102E scope up to it to measure the voltage.  And... voila!
+
+![Oscilloscope measured from pin 1 on the second joystick port](assets/1hz_oscilloscope.png)
+
