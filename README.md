@@ -47,5 +47,5 @@ it to output a square wave with 1 Hertz period with the up time
 of 250ms.  I dug out a female DB9 and wired hooked up my 
 Rigol DS1102E scope up to it to measure the voltage.  And... voila!
 
-![Oscilloscope measured from pin 1 on the second joystick port](assets/1hz_oscilloscope.png)
+![Oscilloscope measured from pin 1 on the second joystick port](assets/1hz_oscilloscope_2.png)
 
