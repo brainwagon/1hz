@@ -1,4 +1,4 @@
-# 1hz
+# A 1hz signal generator, implemented on an Atari 2600
 
 ![Pong clock, which generates a 1HZ signal on the Atari 2600](assets/1hz.png)
 
